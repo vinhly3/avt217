@@ -2,5 +2,40 @@
 /* CSS Document */
 
 body {
-	background-color: blueviolet;
+	background-color:antiquewhite;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin:5% 5% 10% 5%;
+	font-size:20px;
+}
+header {
+	background-color:#ffd4ab;
+	text-align:center;	
+	padding-bottom:20px;
+	padding-top:10px;
+}
+li {
+	list-style-type:none;
+	display:inline;
+	margin-right:50px;
+	color:darkred;
+}
+h1 {
+	font-size:4em;
+}
+h2, h3, em {
+	color:darkred;
+}
+p {
+	line-height:1.5em;
+}
+.posttime {
+	color:#ab906d;
+}
+dl {
+	line-height:1.5em;
+	background-color:#ffe7c7;
+}
+dt {
+	color:indianred;
+	font-weight:bold;
 }
