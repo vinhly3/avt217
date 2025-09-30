@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+			font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+			color:darkblue;
+			background-color: lightgoldenrodyellow;
+		}
+	#wrapper {
+		padding: 0 20%;
+		background-color:lightyellow;
+		float:left;
+	}
+		h1{
+			font-size:2.4em; 
+			font-family:"Hachi Maru Pop", cursive;
+			line-height:15px;
+		}
+		#special {
+			color:#00aae3;
+		}
+		h3{
+			line-height:50px;
+		}
+		h4{
+			font-size: 1.2em;
+		}
+	a:link {
+		color:orangered;
+		text-decoration:none;
+	}
+	a:visited {
+		color:darkorange;
+	}
+	a:hover {
+		color:burlywood;
+		text-decoration:underline;
+	}
+	a:active {
+		color:lightcoral;
+	}
+.weekly {
+	width:45%;
+	float:left;
+	margin: 0 5%;
+}
+#project {
+	width:45%;
+	float:left;
+}
