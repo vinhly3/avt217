@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+	margin:auto;
+	padding:10px;
+}
+
+#row1{
+	width:908px;
+	height:67px;
+	background-color:salmon;
+	float:center;
+	margin-bottom: 10px;
+}
+#row2{
+	width:908px;
+	height:31px;
+	background-color:goldenrod;
+	float:center;
+}
+#flexbox{
+	display:flex;
+	justify-content:space-evenly;
+	width:908px;
+}
+.column{
+	width:207px;
+	height:382px;
+	background-color:lightskyblue;
+}
+#row3{
+	width:908px;
+	height:55px;
+	background-color:tan;
+	float:center;
+}
