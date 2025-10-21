@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/halloween.jpg") no-repeat bottom fixed;
+    -webkit-background-size: 80vh;
+    -moz-background-size: 80vh;
+    -o-background-size: 80vh;
+    background-size: 80vh;
+	background-color:#1d1f1e;
+  }
+
+#container {
+ margin-top:2vh;
+  }
+
+  p {
+	text-transform:uppercase;
+  	font-family: "Shadows Into Light", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size:60px;
+	color:lightgoldenrodyellow;
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+ 		background:url("../img/halloween2.jpg") no-repeat center center fixed;
+		background-size:100%;
+    }
+	  
+	#container {
+		position:absolute;
+		text-align:end;
+		right:5vh;
+		bottom:1vh;
+    }
+	   
+    p {
+		text-transform:uppercase;
+		font-size: 60px;
+		line-height:0;
+		color:lightgoldenrodyellow;
+    }
+	  
+	#cursive {
+		font-family: "Henny Penny", system-ui;
+		font-weight: bold;
+		font-style: normal;
+		font-size:90px;
+  	}
+	  
+    .mobile-only {
+   		display:block;
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+ 		display:none;
+    }
+
+} /* don't forget to close the styles for mobile/
