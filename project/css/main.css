@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:url("../img/cake-background.png") no-repeat bottom fixed;
+    -webkit-background-size: 100vw;
+    -moz-background-size: 100vw;
+    -o-background-size: 100vw;
+	background-color:#FFECE0;
+	font-family: "Josefin Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+}
+#tabs{
+	display:flex;
+	width:80vw;
+	margin:0 auto 0;
+}
+.tab1{
+	background:url("../img/tab1.png")no-repeat;
+	position:relative;
+	width:300px;
+	height:174px;
+	text-align:center;
+}
+.tab2{
+	background:url("../img/tab2.png")no-repeat;
+	position:relative;
+	top:94px;
+	width:300px;
+	height:140px;
+	margin:-60px;
+	text-align:center;
+}
+.tabname1{
+	position:relative;
+	top:120px;
+	left:20px;
+	color:#FFECE0;
+	font-size:30px;
+}
+.tabname2{
+	position:relative;
+	top:85px;
+	left:-45px;
+	color:#FFECE0;
+	font-size:30px;
+}
+#background{
+	background-color:#FFB9B0;
+	width:80vw;
+	margin:auto;
+	border-radius:20px 20px 0 0;
+}
+h1{
+	position:relative;
+	top:40px;
+	background-color:#FFECE0;
+	font-family: "Irish Grover", system-ui;
+  	font-weight: 400;
+  	font-size:6vw;
+	color:#B20B19;
+	padding:5px 40px;
+}
+h2{
+	position:relative;
+	top:30px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size:30px;
+	font-style:italic;
+	color:#660933;
+	padding:30px 40px;
+	font-weight:normal;
+}
+#title{
+	font-size:8vw;
+}
+#logo{
+	vertical-align:middle;
+	float:right;
+	width:10vw;
+}
+#products{
+	width:80vw;
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	justify-content:space-evenly;
+	padding:70px 0px 40px;
+}
+.product{
+	margin:10px;
+}
+#about{
+	width:80vw;
+	display:grid;
+	grid-template-columns:auto auto;
+	justify-content:space-evenly;
+	padding:70px 0px 40px;
+}
+.about{
+	margin:10px;
+	width:37vw;
+	align:center;
+}
+footer{
+	color:#FFECE0;
+	background-color:#B20B19;
+	padding:20px 12vw;
+	line-height:30px;
+}
