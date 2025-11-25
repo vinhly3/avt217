@@ -14,6 +14,9 @@ body{
 	font-family: "Josefin Sans", sans-serif;
   	font-optical-sizing: auto;
   	font-style: normal;
+	font-size:20px;
+	line-height:25px;
+	color:#660933;
 }
 #tabs{
 	display:flex;
@@ -37,18 +40,31 @@ body{
 	text-align:center;
 }
 .tabname1{
-	position:relative;
+	position:absolute;
 	top:120px;
-	left:20px;
+	left:135px;
 	color:#FFECE0;
 	font-size:30px;
 }
 .tabname2{
-	position:relative;
+	position:absolute;
 	top:85px;
-	left:-45px;
+	left:55px;
 	color:#FFECE0;
 	font-size:30px;
+}
+.tabname3{
+	position:absolute;
+	top:85px;
+	left:70px;
+	color:#FFECE0;
+	font-size:30px;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;	
 }
 #background{
 	background-color:#FFB9B0;
@@ -67,6 +83,7 @@ h1{
 	font-family: "Irish Grover", system-ui;
   	font-weight: 400;
   	font-size:6vw;
+	line-height:80px;
 	color:#B20B19;
 	padding:20px 40px;
 }
@@ -74,7 +91,7 @@ h2{
 	position:relative;
 	top:30px;
 	font-family: "Josefin Sans", sans-serif;
-	font-size:30px;
+	font-size:25px;
 	font-style:italic;
 	color:#660933;
 	padding:30px 40px;
@@ -92,22 +109,76 @@ h1 img{
 	display:grid;
 	grid-template-columns:auto auto auto auto;
 	justify-content:space-evenly;
-	padding:70px 0px 40px;
+	padding:70px 50px 40px;
 }
 .product{
 	margin:10px;
 }
-#about{
+.light{
+	font-weight:300;
+}
+#home{
 	width:80vw;
 	display:grid;
 	grid-template-columns:auto auto;
 	justify-content:space-evenly;
 	padding:70px 0px 40px;
 }
-.about{
+.home{
 	margin:10px;
 	width:37vw;
 	align:center;
+}
+#about{
+	width:80vw;
+	padding:70px 40px;
+}
+#about img{
+	float:left;
+	margin:0 20px 20px 0;
+}
+#info{
+	clear:left;
+	width:80vw;
+	display:grid;
+	grid-template-columns:auto auto auto;
+	justify-content:space-between;
+	padding:20px 80px 40px;
+	color:#B6115B;
+}
+form{
+	width:80vw;
+	padding:20px 80px 60px;
+	color:#B6115B;
+	text-align:center;
+}
+label{
+	display:block;
+	font-family: "Irish Grover", system-ui;
+  	font-weight: 400;
+  	font-size:3vw;
+	line-height:auto;
+}
+input{
+	box-sizing:border-box;
+	width:45%;
+	padding:16px;
+	margin:10px 0px;
+	border:solid 2px #B6115B;
+	background-color:#FFECE0;
+	color:#FF9595;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #B6115B;
+	border: none;
+	width:150px;
+	height:50px;
+	color: #FFECE0;
+	font-family: "Josefin Sans", sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	padding:0;
+	cursor: pointer;
 }
 footer{
 	color:#FFECE0;
