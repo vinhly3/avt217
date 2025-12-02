@@ -13,10 +13,12 @@
 		h1{
 			font-size:2.4em; 
 			font-family:"Hachi Maru Pop", cursive;
-			line-height:15px;
+			line-height:35px;
+			margin:0;
 		}
 		#special {
 			color:#00aae3;
+			margin-top:20px;
 		}
 		h3{
 			line-height:50px;
