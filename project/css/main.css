@@ -49,16 +49,30 @@ body{
 .tabname2{
 	position:absolute;
 	top:85px;
-	left:55px;
+	left:60px;
 	color:#FFECE0;
 	font-size:30px;
 }
 .tabname3{
 	position:absolute;
 	top:85px;
+	left:55px;
+	color:#FFECE0;
+	font-size:30px;
+}
+.tabname4{
+	position:absolute;
+	top:85px;
 	left:70px;
 	color:#FFECE0;
 	font-size:30px;
+}
+#tabs img{
+	object-fit:contain;
+	width:2.5vw;
+	position:absolute;
+	top:130px;
+	right:170px;
 }
 a:link{
 	text-decoration:none;
@@ -71,6 +85,10 @@ a:visited{
 	width:80vw;
 	margin:auto;
 	border-radius:20px 20px 0 0;
+}
+.top{
+	display:block;
+	width:80vw;
 }
 h1{
 	display:flex;
@@ -111,6 +129,11 @@ h1 img{
 	justify-content:space-evenly;
 	padding:70px 50px 50px;
 }
+.product img:hover{
+	opacity:0.5;
+	transition:.4s ease
+}
+
 .product{
 	margin:10px;
 }
@@ -126,12 +149,12 @@ h1 img{
 }
 .home{
 	margin:10px;
-	width:37vw;
+	width:35vw;
 	align:center;
 }
 #about{
 	width:80vw;
-	padding:70px 50px;
+	padding:80px 50px;
 }
 #about img{
 	float:left;
@@ -162,34 +185,56 @@ label{
 input{
 	box-sizing:border-box;
 	width:45%;
-	padding:16px;
+	padding:11px;
 	margin:10px 0px;
 	border:solid 2px #B6115B;
 	background-color:#FFECE0;
-	color:#FF9595;
+	color:#FF6565;
+	font-size:20px;
 }
 input[type=button], input[type=submit], input[type=reset] {
 	background-color: #B6115B;
 	border: none;
-	width:150px;
-	height:50px;
+	width:160px;
+	height:49px;
 	color: #FFECE0;
 	font-family: "Josefin Sans", sans-serif;
 	font-size:20px;
 	text-decoration:none;
-	padding:0;
 	cursor: pointer;
+	transition-duration: 0.4s;
+}
+#button:hover {
+  background-color: #FFECE0;
+  color: #B6115B;
 }
 .exhibit{
 	width:80vw;
 	display:flex;
 	flex-direction:row;
 	justify-content:space-between;
-	padding:70px 50px 50px;
+	padding:30px 50px;
+}
+.exhibit1{
+	width:80vw;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding:80px 50px 30px;
+}
+.exhibit img:hover{
+	opacity:0.5;
+	transition:.4s ease
+}
+.exhibit1 img:hover{
+	opacity:0.5;
+	transition:.4s ease
 }
 .summary{
 	margin:0px 40px;
-	padding:
+}
+.paragraph{
+	margin-top:10px;
 }
 .pink{
 	color:#B6115B;
@@ -197,6 +242,13 @@ input[type=button], input[type=submit], input[type=reset] {
 footer{
 	color:#FFECE0;
 	background-color:#B20B19;
-	padding:20px 12vw;
+	padding:20px 13vw;
 	line-height:30px;
+}
+#credit{
+	margin-top:30px;
+}
+footer img{
+	float:right;
+	width:7vw;
 }
