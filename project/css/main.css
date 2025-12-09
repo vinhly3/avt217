@@ -80,6 +80,10 @@ a:link{
 a:visited{
 	text-decoration:none;	
 }
+a:hover{
+	opacity:0.5;
+	transition:.4s ease
+}
 #background{
 	background-color:#FFB9B0;
 	width:80vw;
@@ -89,6 +93,12 @@ a:visited{
 .top{
 	display:block;
 	width:80vw;
+}
+.top img{
+	width:55vw;
+}
+#strawberry1{
+	width:49vw;
 }
 h1{
 	display:flex;
@@ -129,11 +139,6 @@ h1 img{
 	justify-content:space-evenly;
 	padding:70px 50px 50px;
 }
-.product img:hover{
-	opacity:0.5;
-	transition:.4s ease
-}
-
 .product{
 	margin:10px;
 }
@@ -222,13 +227,11 @@ input[type=button], input[type=submit], input[type=reset] {
 	justify-content:space-between;
 	padding:80px 50px 30px;
 }
-.exhibit img:hover{
-	opacity:0.5;
-	transition:.4s ease
+.exhibit img{
+	width:30vw;
 }
-.exhibit1 img:hover{
-	opacity:0.5;
-	transition:.4s ease
+.exhibit1 img{
+	width:30vw;
 }
 .summary{
 	margin:0px 40px;
@@ -238,6 +241,10 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 .pink{
 	color:#B6115B;
+}
+.pink b{
+	font-size:25px;
+	line-height:30px;
 }
 footer{
 	color:#FFECE0;
